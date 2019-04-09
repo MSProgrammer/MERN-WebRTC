@@ -1,0 +1,31 @@
+{
+  "name": "kava-im",
+  "version": "1.0.0",
+  "description": "This Product is going to make a chat group and Instant Message for KAVANO ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "KAVA-IM"
+  ],
+  "author": "Mohammadreza Sakhavar",
+  "license": "Beerware",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsdoc": "^3.5.5",
+    "mongoose": "^5.4.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "reload": "^3.0.0"
+  },
+  "nodemonConfig": {
+    "delay": "2500"
+  }
+}

@@ -22,10 +22,14 @@
     "mongoose": "^5.4.22"
   },
   "devDependencies": {
+    "express-pino-logger": "^4.0.0",
+    "node-env-run": "^3.0.2",
     "nodemon": "^1.18.10",
+    "pino-colada": "^1.4.4",
     "reload": "^3.0.0"
   },
   "nodemonConfig": {
     "delay": "2500"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }

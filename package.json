@@ -18,8 +18,10 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "jsdoc": "^3.5.5",
-    "mongoose": "^5.4.22"
+    "mongoose": "^5.4.22",
+    "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
     "express-pino-logger": "^4.0.0",
@@ -30,6 +32,5 @@
   },
   "nodemonConfig": {
     "delay": "2500"
-  },
-  "proxy": "http://localhost:3001"
+  }
 }

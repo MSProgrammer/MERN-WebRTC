@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const UserSchema = mongoose.Schema(
   {
     user_name: { type: String, unique: true, required: true, dropDups: true },
+    is_active: { type: Boolean, default: false },
     password: String,
     name: {
       first: String,

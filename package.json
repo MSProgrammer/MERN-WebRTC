@@ -17,7 +17,7 @@
   "license": "Beerware",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.15.6",
     "jsdoc": "^3.5.5",
     "mongoose": "^5.4.22",
